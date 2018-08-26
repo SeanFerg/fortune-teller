@@ -31,8 +31,13 @@ public class FortuneTellerApp {
 				// Get user's favorite color
 				System.out.println("What is your ROYGBIV color or enter Help?");
 				String favColor = input.nextLine();
-//				If String favColor = "Help" {
+				if (favColor.equals ("Help")) {
 					System.out.println("The ROYGBIV colors are red, orange, yellow, green, blue, indigo, violet");
+				
+				// Get user's number of siblings (integer)
+				System.out.println("How many siblings do you have?");
+				int siblings = input.nextInt();
+				input.nextLine();	
 				}
 				
 				
