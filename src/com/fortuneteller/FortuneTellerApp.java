@@ -41,15 +41,17 @@ public class FortuneTellerApp {
 		String retire;
 		
 		if (age % 2 == 0) {
-			retire = "18 years";
-		} else {
 			retire = "16 years";
+		} else {
+			retire = "18 years";
 		}
 
 		// Vacation Home Location
 		String location = " ";
 
-		if (siblings == 0) {
+		if
+		(siblings == 0) {
+		
 			location = "Boca Raton, Fl";
 		}
 
